@@ -20,6 +20,8 @@
     <bean id="myCricketCoach"
           class="com.olichid.springdemo.CricketCoach">
         <property name="fortuneService" ref="myFortune" />
+        <property name="emailAddress" value="kk@olichid.com" />
+        <property name="team" value="Rockets" />
     </bean>
 
 
