@@ -13,10 +13,14 @@
     </bean>
 
     <bean id="myCoach"
-        class="com.olichid.springdemo.BaseballCoach">
+        class="com.olichid.springdemo.TrackCoach">
         <constructor-arg ref="myFortune"></constructor-arg>
     </bean>
 
+    <bean id="myCricketCoach"
+          class="com.olichid.springdemo.CricketCoach">
+        <property name="fortuneService" ref="myFortune" />
+    </bean>
 
 
 </beans>
