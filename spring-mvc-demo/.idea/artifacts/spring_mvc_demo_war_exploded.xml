@@ -8,8 +8,8 @@
           <element id="module-output" name="spring-mvc-demo" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="servlet-jstl" />
-          <element id="library" level="project" name="spring-framework-5.1.5.RELEASE" />
+          <element id="library" level="project" name="javax.servlet.jsp.jstl-1.2.1" />
+          <element id="library" level="project" name="spring-context-support-5.1.5.RELEASE" />
         </element>
       </element>
     </root>

@@ -20,7 +20,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 9.0.16" level="application_server_libraries" />
-    <orderEntry type="library" name="spring-framework-5.1.5.RELEASE" level="project" />
-    <orderEntry type="library" name="servlet-jstl" level="project" />
+    <orderEntry type="library" name="spring-context-support-5.1.5.RELEASE" level="project" />
+    <orderEntry type="library" name="javax.servlet.jsp.jstl-1.2.1" level="project" />
   </component>
 </module>
